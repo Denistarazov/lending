@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Алекс Мороз — Дизайнер & Разработчик</title>
+  <meta name="description" content="UI/UX дизайнер и фронтенд-разработчик. Создаю цифровые продукты с вниманием к деталям." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo">АМ</a>
+    <div class="nav__links">
+      <a href="#works" class="nav__link">Работы</a>
+      <a href="#about" class="nav__link">Обо мне</a>
+      <a href="#contact" class="nav__link">Контакт</a>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero__year">2024</div>
+
+    <div class="hero__badge">Доступен для проектов ↗</div>
+
+    <div class="hero__title-block">
+      <div class="hero__line hero__line--1">ДИЗАЙН</div>
+      <div class="hero__line hero__line--2"><em>&</em></div>
+      <div class="hero__line hero__line--3">РАЗРА-<br class="hero-br">БОТКА</div>
+    </div>
+
+    <div class="hero__bottom">
+      <div class="hero__meta">
+        <span class="hero__name">Алекс Мороз</span>
+        <span class="hero__role">UI/UX дизайнер · Фронтенд-разработчик<br>Внимание к деталям, любовь к типографике</span>
+      </div>
+      <div class="hero__actions">
+        <div class="scroll-hint">
+          <span>Скролл</span>
+          <div class="scroll-line"></div>
+        </div>
+        <a href="#works" class="btn-primary">Смотреть работы</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about" id="about">
+    <div class="about__inner">
+
+      <div class="about__left reveal">
+        <div class="section-label">01 — Обо мне</div>
+        <h2 class="about__heading">Делаю цифровые<br>продукты с <em>душой</em></h2>
+        <p class="about__text reveal" data-delay="100">
+          Я дизайнер и разработчик, который не разделяет эти два мира.
+          Для меня каждый пиксель имеет причину, а каждая строка кода — намерение.
+        </p>
+        <p class="about__text reveal" data-delay="200">
+          Работаю с брендами и командами, которые хотят большего,
+          чем просто «красивый сайт».
+        </p>
+        <div class="about__signature reveal" data-delay="300">
+          <svg viewBox="0 0 200 55" class="sig-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 38C20 15 38 48 55 28C68 12 82 44 100 32C118 20 130 42 150 36C165 31 178 22 195 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Алекс</span>
+        </div>
+      </div>
+
+      <div class="about__right reveal" data-delay="150">
+        <div class="about__visual">
+          <div class="photo-mosaic">
+            <div class="pm-block pm-block--dark"></div>
+            <div class="pm-block pm-block--accent"></div>
+            <div class="pm-block pm-block--warm"></div>
+            <div class="pm-block pm-block--mid"></div>
+          </div>
+          <div class="about__stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">лет опыта</span>
+          </div>
+          <div class="about__projects-count">
+            <span class="stat-num">40+</span>
+            <span class="stat-label">проектов</span>
+          </div>
+        </div>
+        <div class="about__tags">
+          <span class="tag">UI дизайн</span>
+          <span class="tag">Брендинг</span>
+          <span class="tag">Motion</span>
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">Figma</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== WORKS ==================== -->
+  <section class="works" id="works">
+    <div class="works__header">
+      <div>
+        <div class="section-label reveal">02 — Работы</div>
+        <h2 class="works__heading reveal">Избранные<br>проекты</h2>
+      </div>
+      <a href="#" class="works__all-link reveal">Все работы →</a>
+    </div>
+
+    <div class="works__grid">
+
+      <article class="project-card" data-num="01">
+        <div class="project-card__visual" style="--card-bg: #1C1C1A;">
+          <div class="card-art card-art--lines"></div>
+          <div class="card-art-label">NEXUS</div>
+        </div>
+        <div class="project-card__hover">
+          <h3 class="pch__title">Nexus Brand Identity</h3>
+          <p class="pch__desc">Полная система идентичности для финтех-стартапа — от логотипа до дизайн-системы</p>
+          <span class="pch__link">Открыть проект →</span>
+        </div>
+        <div class="project-card__bar">
+          <span class="pcb__name">Nexus</span>
+          <span class="pcb__tags">Брендинг · Identity</span>
+        </div>
+      </article>
+
+      <article class="project-card" data-num="02">
+        <div class="project-card__visual" style="--card-bg: #C0392B;">
+          <div class="card-art card-art--circle"></div>
+          <div class="card-art-label">AURA</div>
+        </div>
+        <div class="project-card__hover">
+          <h3 class="pch__title">Aura App</h3>
+          <p class="pch__desc">Мобильное приложение для медитаций и осознанной жизни</p>
+          <span class="pch__link">Открыть проект →</span>
+        </div>
+        <div class="project-card__bar">
+          <span class="pcb__name">Aura</span>
+          <span class="pcb__tags">UI/UX · Mobile</span>
+        </div>
+      </article>
+
+      <article class="project-card" data-num="03">
+        <div class="project-card__visual" style="--card-bg: #1D3461;">
+          <div class="card-art card-art--grid"></div>
+          <div class="card-art-label">FORMA</div>
+        </div>
+        <div class="project-card__hover">
+          <h3 class="pch__title">Forma E-commerce</h3>
+          <p class="pch__desc">Дизайн и разработка интернет-магазина премиум-мебели на Next.js</p>
+          <span class="pch__link">Открыть проект →</span>
+        </div>
+        <div class="project-card__bar">
+          <span class="pcb__name">Forma</span>
+          <span class="pcb__tags">Web · E-commerce</span>
+        </div>
+      </article>
+
+      <article class="project-card" data-num="04">
+        <div class="project-card__visual" style="--card-bg: #2A2924;">
+          <div class="card-art card-art--type"></div>
+          <div class="card-art-label">GRAIN</div>
+        </div>
+        <div class="project-card__hover">
+          <h3 class="pch__title">Grain Editorial</h3>
+          <p class="pch__desc">Редакционный дизайн и типографика для независимого арт-журнала</p>
+          <span class="pch__link">Открыть проект →</span>
+        </div>
+        <div class="project-card__bar">
+          <span class="pcb__name">Grain</span>
+          <span class="pcb__tags">Editorial · Print</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS ==================== -->
+  <section class="skills" id="skills">
+    <div class="skills__inner">
+      <div class="skills__left">
+        <div class="section-label reveal">03 — Стек</div>
+        <h2 class="skills__heading reveal">Чем<br>работаю</h2>
+        <p class="skills__note reveal" data-delay="100">Инструменты — не самоцель.<br>Цель — результат.</p>
+      </div>
+      <div class="skills__right">
+        <div class="skills__category reveal">
+          <div class="skills__cat-label">/ Дизайн</div>
+          <div class="skill-item">
+            <span class="skill-name">Figma</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 95%"></div></div>
+            <span class="skill-pct">95</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Брендинг</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 88%"></div></div>
+            <span class="skill-pct">88</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Motion Design</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 78%"></div></div>
+            <span class="skill-pct">78</span>
+          </div>
+        </div>
+        <div class="skills__category reveal" data-delay="150">
+          <div class="skills__cat-label">/ Разработка</div>
+          <div class="skill-item">
+            <span class="skill-name">CSS / Animation</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 93%"></div></div>
+            <span class="skill-pct">93</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">React / Next.js</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 85%"></div></div>
+            <span class="skill-pct">85</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">TypeScript</span>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 75%"></div></div>
+            <span class="skill-pct">75</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials__inner">
+      <div class="section-label reveal">04 — Отзывы</div>
+
+      <div class="testimonials__track" id="tTrack">
+        <div class="testimonial active">
+          <blockquote class="t__quote">
+            <div class="t__mark">"</div>
+            <p>Алекс — один из немногих, кто понимает, что дизайн — это не только про красоту. Он решил нашу бизнес-задачу элегантно и быстро.</p>
+          </blockquote>
+          <footer class="t__footer">
+            <span class="t__name">Мария Соколова</span>
+            <span class="t__role">CEO, Nexus Fintech</span>
+          </footer>
+        </div>
+        <div class="testimonial">
+          <blockquote class="t__quote">
+            <div class="t__mark">"</div>
+            <p>Работать с Алексом — это удовольствие. Внимательность к деталям, глубокое понимание бренда и невероятно качественный результат.</p>
+          </blockquote>
+          <footer class="t__footer">
+            <span class="t__name">Дмитрий Волков</span>
+            <span class="t__role">Founder, Aura</span>
+          </footer>
+        </div>
+        <div class="testimonial">
+          <blockquote class="t__quote">
+            <div class="t__mark">"</div>
+            <p>Продукт получился лучше, чем мы могли себе представить. Алекс поднял планку того, что мы думали возможным в наших рамках.</p>
+          </blockquote>
+          <footer class="t__footer">
+            <span class="t__name">Анна Петрова</span>
+            <span class="t__role">Art Director, Forma</span>
+          </footer>
+        </div>
+      </div>
+
+      <div class="testimonials__controls">
+        <button class="t-btn t-prev" aria-label="Предыдущий">←</button>
+        <div class="t-dots" id="tDots">
+          <span class="t-dot active"></span>
+          <span class="t-dot"></span>
+          <span class="t-dot"></span>
+        </div>
+        <button class="t-btn t-next" aria-label="Следующий">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="section-label reveal">05 — Контакт</div>
+      <h2 class="contact__heading reveal">
+        Готов к новым<br><em>проектам.</em>
+      </h2>
+      <a href="mailto:alex@moro.design" class="contact__email reveal" data-delay="100">
+        alex@moro.design
+      </a>
+      <nav class="contact__socials reveal" data-delay="200">
+        <a href="#" class="contact__soc">Behance</a>
+        <span class="contact__dot">·</span>
+        <a href="#" class="contact__soc">Dribbble</a>
+        <span class="contact__dot">·</span>
+        <a href="#" class="contact__soc">Telegram</a>
+        <span class="contact__dot">·</span>
+        <a href="#" class="contact__soc">LinkedIn</a>
+      </nav>
+    </div>
+    <div class="contact__decor" aria-hidden="true">ПРИВЕТ</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>© 2024 Алекс Мороз</span>
+    <span class="footer__mid">Сделано с вниманием к деталям</span>
+    <span>Москва, Россия</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
